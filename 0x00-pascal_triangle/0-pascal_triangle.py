@@ -3,6 +3,7 @@
 This module helps to draw a pascal triangle
 """
 
+
 def pascal_triangle(triangle):
     """
     This function takes an interger as an arguement.
@@ -31,7 +32,3 @@ def pascal_triangle(triangle):
             final_list.append(new_list)
     
     return final_list
-
-         
-
-
