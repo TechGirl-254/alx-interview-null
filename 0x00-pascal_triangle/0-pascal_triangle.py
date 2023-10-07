@@ -1,6 +1,21 @@
 #!/usr/bin/python3
+"""
+This module helps to draw a pascal triangle
+"""
 
 def pascal_triangle(triangle):
+    """
+    This function takes an interger as an arguement.
+    and generates a Pascal triangle with a number of rows
+    corresponding to the argument.
+
+    Args:
+        triangle: an int representing the number of rows on the triangle
+
+    Returns:
+        an empty list if triangle is <= 0
+        a list of a list of intergers
+    """
     final_list = [[1]]
     if triangle <= 0:
         empty_list = []
